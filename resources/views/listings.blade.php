@@ -1,6 +1,4 @@
-<h1>Listings</h1>
-
-<p>{{$heading}}</p>
+<h1>{{$heading}}</h1>
 @if(count($listings) == 0)
     <p>No listings found</p>
 @endif
